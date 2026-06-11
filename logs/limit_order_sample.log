@@ -1,0 +1,5 @@
+2025-06-10T14:30:15 | INFO     | trading_bot | Placing LIMIT order | symbol=ETHUSDT side=SELL quantity=0.1 price=3500.0 timeInForce=GTC
+2025-06-10T14:30:15 | DEBUG    | trading_bot | POST /fapi/v1/order | params: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.1, 'price': 3500.0, 'timeInForce': 'GTC', 'timestamp': 1749563415211}
+2025-06-10T14:30:16 | DEBUG    | trading_bot | Response /fapi/v1/order | status=200 | body={"orderId":4751299,"symbol":"ETHUSDT","status":"NEW","clientOrderId":"x-def456","price":"3500.00","avgPrice":"0","origQty":"0.1","executedQty":"0","cumQty":"0","cumQuote":"0","timeInForce":"GTC","type":"LIMIT","side":"SELL","stopPrice":"0","time":1749563416000,"updateTime":1749563416000,"workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","positionSide":"BOTH","reduceOnly":false}
+2025-06-10T14:30:16 | INFO     | trading_bot | LIMIT order placed successfully | orderId=4751299 status=NEW
+2025-06-10T14:30:16 | INFO     | trading_bot | Session complete — order placed successfully.

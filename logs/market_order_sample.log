@@ -1,0 +1,5 @@
+2025-06-10T14:22:01 | INFO     | trading_bot | Placing MARKET order | symbol=BTCUSDT side=BUY quantity=0.001
+2025-06-10T14:22:01 | DEBUG    | trading_bot | POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1749562921443}
+2025-06-10T14:22:02 | DEBUG    | trading_bot | Response /fapi/v1/order | status=200 | body={"orderId":4751283,"symbol":"BTCUSDT","status":"FILLED","clientOrderId":"x-abc123","price":"0","avgPrice":"67320.50","origQty":"0.001","executedQty":"0.001","cumQty":"0.001","cumQuote":"67.3205","timeInForce":"GTC","type":"MARKET","side":"BUY","stopPrice":"0","time":1749562922000,"updateTime":1749562922000,"workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","positionSide":"BOTH","reduceOnly":false}
+2025-06-10T14:22:02 | INFO     | trading_bot | MARKET order placed successfully | orderId=4751283 status=FILLED
+2025-06-10T14:22:02 | INFO     | trading_bot | Session complete — order placed successfully.
